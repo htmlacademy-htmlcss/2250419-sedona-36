@@ -9,51 +9,49 @@
   <body>
     <header>
       <nav class="navigation">
-        <a class="navigation-logo" href="#">
-          <img class="logo" src="" alt="логотип 'Седона'">
+        <a class="navigation-logo">
+          <img src="#" alt="логотип Седона" width="140" height="70">
         </a>
-        <ul class="navigation-list">
+        <ul class="navigation-list list-reset">
           <li class="navigation-item">
-            <a class="navigation-link navigation-link-current" href="main.html">Главная</a>
+            <a class="navigation-link navigation-link-current">Главная</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="about.html">О седоне</a>
+            <a class="navigation-link" href="#">О седоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="hotels.html">Гостиницы</a>
-          </li>
-        </ul>
-        <ul class="navigation-list navigation-user">
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">
-              <span class="visually-hidden">
-                Поиск
-              </span>
-            </a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">
-              <span class="visually-hidden">
-                Избранное
-              </span>
-            </a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">Хочу сюда!</a>
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
+        <ul class="navigation-user-list list-reset">
+          <li class="navigation-user-item">
+            <a class="navigation-user-link navigation-user-link-search" href="#">
+              <img src="#" alt="Иконка поиска">
+              <span class="visually-hidden">Поиск</span>
+            </a>
+          </li>
+          <li class="navigation-user-item">
+            <a class="navigation-user-link navigation-user-link-favorites" href="#">
+              <img src="#" alt="Иконка избранного">
+              <span class="visually-hidden">Избранное</span>
+              <span class="navigation-user-link-favorites-num">12</span>
+            </a>
+          </li>
+        </ul>
+        <a class="button button-dark navigation-button" href="#">Хочу сюда!</a>
       </nav>
     </header>
-    <main class="main-index">
+    <main class="main">
       <section class="hero">
         <h1 class="visually-hidden">Седона</h1>
-        <img class="hero-img" src="#" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!">
+        <img class="hero-img" src="#" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!" width="1200"
+          height="485">
       </section>
       <section class="advantages">
         <h2 class="visually-hidden">Преимущества</h2>
         <p class="lead">Седона - небольшой городок в Аризоне, заслуживающий большего!</p>
         <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон</p>
-        <ul class="advantages-list">
+        <ul class="advantages-list list-reset">
           <li class="advantages-iteam">
             <h3 class="advantages-title">Настоящий городок</h3>
             <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
@@ -82,7 +80,7 @@
         <h2 class="visually-hidden">Услуги</h2>
         <p class="services-lead">Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
         <p>Опытный персонал и качественное обслуживание!</p>
-        <ul class="services-list">
+        <ul class="services-list list-reset">
           <li class="services-iteam">
             <h3 class="services-title">Жильё</h3>
             <p class="services-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
@@ -116,26 +114,30 @@
       </section>
     </main>
     <footer class="footer-page">
-      <ul class="social-list">
-        <li class="social-iteam">
+      <ul class="social-list list-reset">
+        <li class="social-item">
           <a class="social-link" href="https://vk.com/htmlacademy">
+            <img src="#" alt="Иконка ВКонтакте">
             <span class="visually-hidden">ВКонтакте</span>
           </a>
         </li>
         <li class="social-iteam">
           <a class="social-link" href="https://t.me/htmlacademy">
+            <img src="#" alt="Иконка Telegram">
             <span class="visually-hidden">Telegram</span>
           </a>
         </li>
         <li class="social-iteam">
           <a class="social-link" href="https://www.youtube.com/user/htmlacademy">
+            <img src="#" alt="Иконка YouTube">
             <span class="visually-hidden">YouTube</span>
           </a>
         </li>
       </ul>
       <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
       <a class="logo-htmlacademy" href="https://htmlacademy.ru/">
-        <img class="logo" src="" alt="логотип htmlacademy">
+        <img src="#" alt="логотип htmlacademy" width="115" height="33">
+        <span class="visually-hidden">Логотип HTMLAcademy</span>
       </a>
     </footer>
   </body>
