@@ -142,6 +142,7 @@ img {
 }
 
 .advantages-item-full {
+  color: #ffffff;
   background-color: #82b3d3;
 }
 
@@ -156,8 +157,13 @@ img {
 .advantages-title {
   font-size: 24px;
   line-height: 28px;
+  color: #000000;
   text-align: center;
   text-transform: uppercase;
+}
+
+.advantages-item-full .advantages-title {
+  color: #ffffff;
 }
 
 .search {
@@ -241,6 +247,14 @@ img {
   padding: 70px 30px;
 }
 
+.footer-phone {
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 .filter {
   color: #FFFFFF;
   background-color: #000000;
@@ -287,6 +301,17 @@ img {
   border: 2px solid #e5e5e5;
   border-radius: 4px;
   appearance: none;
+}
+
+.product-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.product-link {
+  text-decoration: none;
 }
 
 .product-favorites-active {
