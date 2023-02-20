@@ -95,6 +95,29 @@ img {
   background-color: transparent;
 }
 
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  width: 630px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-logo {
+  width: 140px;
+  margin-right: 44px;
+  margin-left: 70px;
+}
+
+.navigation-user-list {
+  max-width: 310px;
+  margin-left: auto;
+}
+
 .navigation-link {
   font-size: 20px;
   line-height: 24px;
@@ -105,6 +128,7 @@ img {
 
 .navigation-button {
   width: 160px;
+  margin-right: 70px;
 }
 
 
@@ -115,6 +139,10 @@ img {
   background-size: cover;
   text-align: center;
   background-repeat: no-repeat;
+}
+
+.page-description {
+  text-align: center;
 }
 
 .page-title {
@@ -129,11 +157,21 @@ img {
   line-height: 26px;
 }
 
+.advantages-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
 .advantages-content {
   text-align: center;
 }
 
 .advantages-item {
+  width: 400px;
   background-color: rgba(131, 179, 211, 0.2);
 }
 
@@ -142,6 +180,8 @@ img {
 }
 
 .advantages-item-full {
+  width: 1200px;
+  display: flex;
   color: #ffffff;
   background-color: #82b3d3;
 }
@@ -244,7 +284,18 @@ img {
 }
 
 .footer-page {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
   padding: 70px 30px;
+}
+
+.social-list {
+  width: 142px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
 }
 
 .footer-phone {
