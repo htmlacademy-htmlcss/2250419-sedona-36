@@ -100,12 +100,21 @@ img {
 }
 
 .navigation {
+  display: flex;
+  flex-wrap: wrap;
   padding: 0px 70px;
 }
 
 .navigation-logo {
+  display: block;
   width: 140px;
+  height: 70px;
   margin-right: 44px;
+}
+
+.navigation-list {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .navigation-user-list {
@@ -116,11 +125,19 @@ img {
 }
 
 .navigation-link {
+  display: block;
+  padding: 20px 16px;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
   color: #000000;
   text-decoration: none;
+}
+
+.navigation-user-link {
+  min-width: 20px;
+  min-height: 20px;
+  padding: 24px 13px;
 }
 
 .navigation-button {
@@ -138,12 +155,17 @@ img {
   background-size: cover;
   text-align: center;
   background-repeat: no-repeat;
-  padding: 40px 70px;
+  padding: 51px 371px 82px;
+}
+
+.hero-img {
+  display: block;
+  margin: 0 auto;
 }
 
 .page-description {
   text-align: center;
-  padding: 40px 70px;
+  padding: 70px 270px;
 }
 
 .page-title {
@@ -213,6 +235,11 @@ img {
 
 .advantages-item-full .advantages-title {
   color: #ffffff;
+}
+
+.advantages-list-services .advantages-content {
+  padding: 85px 81px;
+
 }
 
 .search {
@@ -296,12 +323,15 @@ img {
 
 .footer-page {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 40px 70px;
 }
 
 .social-list {
   display: flex;
+  flex-wrap: wrap;
+  margin-right: 41px;
 }
 
 .social-link {
@@ -310,7 +340,6 @@ img {
   align-items: center;
   width: 47px;
   height: 40px;
-
   color: #83b3d3;
 }
 
@@ -350,7 +379,15 @@ img {
 .breadcrumbs {
   display: flex;
   align-items: center;
-  margin-bottom: 39px;
+  margin-bottom: 40px;
+}
+
+.breadcrumbs-item {
+  margin-right: 28px;
+}
+
+.breadcrumbs-item:last-child {
+  margin-right: 0;
 }
 
 .breadcrumbs-link {
@@ -383,12 +420,14 @@ img {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  margin-right: 200px;
 }
 
 .sorting-select {
   width: 292px;
   height: 49px;
   padding: 0 40px 0 18px;
+  margin-right: 80px;
   font-size: 18px;
   line-height: 21px;
   font-family: "PT sans", sans-serif;
@@ -399,6 +438,18 @@ img {
   appearance: none;
 }
 
+.sorting-view-link {
+  display: block;
+  width: 48px;
+  height: 48px;
+  padding: 16px 17px;
+  margin-right: 8px;
+}
+
+.sorting-view-link:last-child {
+  margin-right: 0;
+}
+
 .product-choice {
   padding: 0 70px;
 }
@@ -406,6 +457,8 @@ img {
 .product-list {
   display: flex;
   flex-wrap: wrap;
+
+  margin-bottom: 80px;
 }
 
 .product-card {
@@ -450,10 +503,15 @@ img {
 
 .pagination {
   display: flex;
+  margin-bottom: 60px;
 }
 
 .pagination-item {
   margin-right: 8px;
+}
+
+.pagination-item:last-child {
+  margin-right: 0;
 }
 
 .pagination-link {
