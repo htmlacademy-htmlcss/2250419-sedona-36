@@ -101,11 +101,14 @@ img {
 
 .navigation {
   display: flex;
+  flex-wrap: wrap;
   padding: 0px 70px;
 }
 
 .navigation-logo {
+  display: block;
   width: 140px;
+  height: 70px;
   margin-right: 44px;
 }
 
@@ -139,8 +142,6 @@ img {
 
 .navigation-button {
   width: 160px;
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .main {
@@ -154,20 +155,17 @@ img {
   background-size: cover;
   text-align: center;
   background-repeat: no-repeat;
-  padding: 40px 70px;
+  padding: 51px 371px 82px;
 }
 
 .hero-img {
   display: block;
   margin: 0 auto;
-  margin-top: 51px;
-  margin-bottom: 82px;
 }
 
 .page-description {
   text-align: center;
-  padding: 40px 70px;
-  margin-bottom: 21px;
+  padding: 70px 270px;
 }
 
 .page-title {
@@ -197,8 +195,6 @@ img {
   justify-content: space-between;
   flex-wrap: wrap;
   text-align: center;
-
-  margin-bottom: 64px;
 }
 
 .advantages-content {
@@ -250,14 +246,6 @@ img {
   padding: 40px 70px;
 
   text-align: center;
-}
-
-.search-description {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 592px;
-  margin-bottom: 56px;
 }
 
 .search-button {
@@ -335,18 +323,19 @@ img {
 
 .footer-page {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 40px 70px;
 }
 
 .social-list {
   display: flex;
+  flex-wrap: wrap;
   margin-right: 41px;
 }
 
 .social-link {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 47px;
@@ -385,20 +374,24 @@ img {
   margin: 0 0 7px;
   font-size: 60px;
   line-height: 78px;
-  margin-bottom: 8px;
 }
 
 .breadcrumbs {
   display: flex;
-  margin: 0;
-  padding: 0;
   align-items: center;
   margin-bottom: 40px;
 }
 
+.breadcrumbs-item {
+  margin-right: 28px;
+}
+
+.breadcrumbs-item:last-child {
+  margin-right: 0;
+}
+
 .breadcrumbs-link {
   display: block;
-  margin-right: 28px;
   font-size: 16px;
   line-height: 21px;
   color: #ffffff;
@@ -421,8 +414,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   padding: 30px 70px;
-  margin: 0;
-  margin-top: 50px;
 }
 
 .sorting-title {
@@ -448,6 +439,7 @@ img {
 }
 
 .sorting-view-link {
+  display: block;
   width: 48px;
   height: 48px;
   padding: 16px 17px;
