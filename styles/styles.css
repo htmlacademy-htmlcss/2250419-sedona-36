@@ -265,6 +265,10 @@ img {
   opacity: 0.6;
 }
 
+.navigation-user-link-favorites {
+  margin-left: 5px;
+}
+
 .navigation-user-link-favorites-num {
   position: absolute;
   top: 0;
@@ -296,9 +300,10 @@ img {
   color: #FFFFFF;
 
   background-color:#000000;
-  background-image: url("../images/mountains-background.jpg");
+  background-image: url("../images/cover.svg"), url("../images/mountains-background.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center bottom, center;
+  background-size: 100% auto, cover;
 }
 
 .hero-img {
@@ -314,9 +319,8 @@ img {
 }
 
 .page-description {
-  padding: 69px 70px 68px;
+  padding: 69px 70px 90px;
   text-align: center;
-  margin-bottom: 21px;
 }
 
 .page-title {
@@ -333,6 +337,10 @@ img {
 
   font-size: 22px;
   line-height: 26px;
+}
+
+.page-description-services .page-title {
+  margin: 0 0 20px;
 }
 
 .advantages-list {
@@ -380,7 +388,7 @@ img {
 }
 
 .advantages-item-full .advantages-content {
-  padding: 102px 85px;
+  padding-top: 103px;
 }
 
 .advantages-title {
@@ -423,7 +431,7 @@ img {
 
 .page-description-services {
   padding-top: 64px;
-  padding-bottom: 40px;
+  padding-bottom: 64px;
 }
 
 .advantages-list-services .advantages-item {
@@ -468,11 +476,14 @@ img {
   text-align: center;
 }
 
+.search-title {
+  margin-bottom: 20px;
+}
+
 .search-button {
   display: block;
   width: 376px;
-  margin: 0 auto;
-  margin-top: 54px;
+  margin: 54px auto 0;
 
   font-size: 20px;
   line-height: 36px;
@@ -493,8 +504,11 @@ img {
 }
 
 .subscribe-home .subscribe-title {
+  margin-bottom: 0 0 20px;
+
   color: #ffffff;
 }
+
 
 .subscribe-text {
   margin-bottom: 55px;
@@ -945,7 +959,6 @@ img {
   display: block;
   width: 48px;
   height: 48px;
-  margin-left: 8px;
 
   background-repeat: no-repeat;
   background-position: center;
@@ -1166,6 +1179,9 @@ img {
   color: #000000;
 
   background-color: #f2f2f2;
+  border-color: transparent;
+
+  pointer-events: none;
 }
 
 .pagination-link-more {
@@ -1175,6 +1191,7 @@ img {
   color: #000000;
 
   background-color: transparent;
+  border-color: transparent;
 }
 
 .pagination-link-more:focus {
