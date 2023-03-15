@@ -503,9 +503,11 @@ img {
   background-size: cover;
 }
 
-.subscribe-home .subscribe-title {
-  margin: 0 0 20px;
+.subscribe-title {
+  margin-bottom: 20px;
+}
 
+.subscribe-home .subscribe-title {
   color: #ffffff;
 }
 
@@ -1452,7 +1454,7 @@ img {
   padding-top: 8px;
 }
 
-.informathion-toggle {
+.information-toggle {
   width: 26px;
   height: 26px;
 
