@@ -187,11 +187,13 @@ img {
 .navigation-list {
   display: flex;
   flex-wrap: wrap;
+  max-width: 600px;
 }
 
 .navigation-user-list {
   display: flex;
   flex-wrap: wrap;
+  max-width: 300px;
   align-items: center;
   margin-right: 20px;
   margin-left: auto;
@@ -598,7 +600,7 @@ img {
 
   color: #FFFFFF;
 
-  background-color: #000000;
+  background-color: #94989b;
   background-image: url("../images/catalog-background1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -1022,6 +1024,7 @@ img {
   gap: 16px 20px;
   padding: 20px;
 
+  align-items: center;
   border: 1px solid #E6E6E6;
   border-radius: 4px;
 
