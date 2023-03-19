@@ -302,7 +302,7 @@ img {
   text-align: center;
   color: #FFFFFF;
 
-  background-color:#000000;
+  background-color:#94989b;
   background-image: url("../images/cover.svg"), url("../images/mountains-background.jpg");
   background-repeat: no-repeat;
   background-position: center bottom, center;
@@ -500,7 +500,7 @@ img {
 
 .subscribe-home {
   color: #FFFFFF;
-  background-color: #000000;
+  background-color: #94989b;
   background-image: url("../images/mailing-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
